@@ -1,0 +1,25 @@
+.header-wrapper {
+    position: fixed;
+    z-index: 3;
+    width: 50%;
+    background-color: white;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    height: 40px;
+    left: 25%;
+    top: 5%;
+}
+
+.header-btn {
+    width: 50%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.clicked {
+    background-color: #dadada;
+    /* color: white; */
+}
+
