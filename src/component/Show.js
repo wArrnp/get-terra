@@ -3,6 +3,16 @@ import './Show.css';
 
 class Show extends Component {
     render() {
+        const { mapData } = this.props;
+        const mapList = mapData.map(data => {
+            let color;
+            if(data[1] === -1) color = 'gray';
+            else if(data[1] === 0) color = 'blue';
+            else if(data[1] === 1) color = 'green';
+            else if(data[1] === 2) color = 'yellow';
+            else if(data[1] === 3) color = 'violet';
+            return <span className={'show-content ' + color} key={data[0]}>{data[0]}</span>
+        })
         return (
             <div className="show-wrapper">
                 <div className="show-example-wrapper">
@@ -13,15 +23,7 @@ class Show extends Component {
                     <span className="show-example gray"></span>
                 </div>    
                 <div className="show-content-wrapper">
-                    <span className="show-content yellow">동아리</span>
-                    <span className="show-content green">동아리</span>
-                    <span className="show-content blue">동아리</span>
-                    <span className="show-content gray">동아리</span>
-                    <span className="show-content yellow">동아리</span>
-                    <span className="show-content yellow">동아리</span>
-                    <span className="show-content blue">동아리</span>
-                    <span className="show-content gray">동아리</span>
-                    <span className="show-content violet">동아리</span>
+                {mapList}
                 </div>  
             </div>
         );

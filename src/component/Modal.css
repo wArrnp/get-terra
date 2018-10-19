@@ -1,0 +1,22 @@
+.modal-background {
+    display: flex;
+    position: fixed;
+    z-index: 7;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-wrapper {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgba(0,0,0,0.7);
+}
