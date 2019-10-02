@@ -1,61 +1,61 @@
 .show-example-wrapper {
-    display: flex;
-    position: fixed;
-    width: 15%;   
-    z-index: 5;
-    left: 15%;
-    top: 15%;
-    justify-content: space-between;
+  display: flex;
+  position: fixed;
+  width: 15%;
+  z-index: 5;
+  left: 15%;
+  top: 15%;
+  justify-content: space-between;
 }
 
 .show-example {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
 }
 
 .yellow {
-    background: linear-gradient(to bottom, #ffec8f, #ffda8f);
+  background: linear-gradient(to bottom, #ffec8f, #ffda8f);
 }
 
 .green {
-    background: linear-gradient(to bottom, #86df90, #a4e6ab);
+  background: linear-gradient(to bottom, #86df90, #a4e6ab);
 }
 
 .blue {
-    background: linear-gradient(to bottom, #a4a4e6, #a4d2e6);
+  background: linear-gradient(to bottom, #a4a4e6, #a4d2e6);
 }
 
 .violet {
-    background: linear-gradient(to bottom, #d398ec, #c092e8);
+  background: linear-gradient(to bottom, #d398ec, #c092e8);
 }
 
 .gray {
-    background: linear-gradient(to bottom, #c1c1c1, #d5d5d5);
+  background: linear-gradient(to bottom, #c1c1c1, #d5d5d5);
 }
 
 .show-content-wrapper {
-    display: flex;
-    position: fixed;
-    width: 70%;
-    top: 25%;
-    left: 15%;
-    height: 65%;
-    background-color: white;
-    z-index:5 ;
-    border-radius: 28px;
-    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.16);
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 30px 30px 30px 30px
+  display: flex;
+  position: fixed;
+  width: 70%;
+  top: 25%;
+  left: 15%;
+  height: 65%;
+  background-color: white;
+  z-index: 5;
+  border-radius: 1.75rem;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.16);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.875rem;
 }
 
 .show-content {
-    width: 18%;
-    height: 100px;
-    text-align: center;
-    border-radius: 54px;
-    color: white;
-    font-size: 25px;
-    line-height: 100px;
+  width: 18%;
+  height: 6.25rem;
+  text-align: center;
+  border-radius: 3.375rem;
+  color: white;
+  font-size: 1.5625rem;
+  line-height: 6.25rem;
 }

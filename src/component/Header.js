@@ -4,7 +4,7 @@ import "./Header.css";
 
 class Header extends Component {
   render() {
-    const { onPaging, pathname } = this.props;
+    const { pathname } = this.props;
     return (
       <div className="header-wrapper">
         <Link
