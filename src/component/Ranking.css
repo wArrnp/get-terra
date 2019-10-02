@@ -12,7 +12,7 @@
   z-index: 5;
 }
 
-.ranking-team {
+.ranking-team-wrapper {
   display: inline-flex;
   width: 20%;
   height: 80%;
@@ -28,46 +28,34 @@
   text-align: center;
 }
 
-.ranking-team-first {
+.ranking-team {
   width: 100%;
-  height: 16.5625rem;
-  margin-top: 0.625rem;
   display: inline-block;
+  margin-top: 0.625rem;
   border: solid 0.9375rem #ff9e9c;
   background-color: #fff5f5;
-  font-size: 8.125rem;
-  line-height: 15.625rem;
   text-align: center;
   color: #ff9e9c;
   box-sizing: border-box;
 }
 
+.ranking-team-first {
+  height: 16.5625rem;
+  font-size: 8.125rem;
+  line-height: 15.625rem;
+}
+
 .ranking-team-second {
-  width: 100%;
   height: 13.4375rem;
-  margin-top: 0.625rem;
-  display: inline-block;
-  border: solid 0.9375rem #ff9e9c;
   border-left: none;
-  background-color: #fff5f5;
   font-size: 8.125rem;
   line-height: 12.5rem;
-  text-align: center;
-  color: #ff9e9c;
-  box-sizing: border-box;
 }
 
 .ranking-team-third {
   width: 100%;
   height: 10.3125rem;
-  margin-top: 0.625rem;
-  display: inline-block;
-  border: solid 0.9375rem #ff9e9c;
   border-left: none;
-  background-color: #fff5f5;
   font-size: 8.125rem;
   line-height: 9.375rem;
-  text-align: center;
-  color: #ff9e9c;
-  box-sizing: border-box;
 }
