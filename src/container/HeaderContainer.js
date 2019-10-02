@@ -3,12 +3,7 @@ import Header from "../component/Header";
 
 class HeaderContainer extends Component {
   render() {
-    return (
-      <Header
-        onPaging={this.handlePaging}
-        pathname={this.props.location.pathname}
-      />
-    );
+    return <Header pathname={this.props.location.pathname} />;
   }
 }
 
